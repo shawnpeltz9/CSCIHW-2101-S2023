@@ -6,6 +6,13 @@ package HW1;
 //        color is ___"
 public class Adlibs {
     public  String story(String name, int age, String favoriteColor) {
+        name = "shawn";
+        age = 21;
+        favoriteColor = "blue";
+
+        System.out.println("Hello! My name is " + name + ", and I am " + age + " years old, and my favorite color is " + favoriteColor + ".");
         return null;
+        
+        
     }
 }
