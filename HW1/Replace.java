@@ -9,6 +9,14 @@ package HW1;
 // 01234
 public class Replace {
     public String charReplace(String s, int x, char z) {
+        if (index < 0 || index >= str.length()) {
+            // if the index is out of bounds, return the original string unchanged
+            return str;
+        }
+        char[] chars = str.toCharArray();
+        chars[index] = ch;
+        return new String(chars);
+    
         return null;
         
     }
