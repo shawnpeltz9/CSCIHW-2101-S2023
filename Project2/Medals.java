@@ -73,8 +73,8 @@ public class Medals {
         int totalrow = 0;
 
         System.out.println();
-        System.out.printf("%32s", "Hello World!\n");
-        System.out.println("####################################################");
+        System.out.printf("%32s", "            World Medals for Each Country!\n");
+        System.out.println("################################################");
         System.out.println("     Country    Gold    Silver    Bronze   Total");
         for (int i = 0; i < COUNTRIES; i++) {
             System.out.printf("%15s", countries[i]);
